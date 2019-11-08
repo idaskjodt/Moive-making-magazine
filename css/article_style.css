@@ -1,0 +1,251 @@
+/*--Part of the reset--*/
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+/*--------------Body-------------*/
+body {
+    font: 12px/18px Arial, sans-serif;
+    background: #1a1a1a;
+}
+
+.link_white {
+    text-decoration: none;
+    color: #ebe9ec;
+}
+
+.logo {
+    padding-left: 8%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    font-family: Unica One;
+    font-size: 1.75em;
+    line-height: 2em;
+    color: #ebe9ec;
+    letter-spacing: 0.03em;
+}
+
+.art_main_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.art_img {
+    max-width: 100%;
+}
+
+.art_img_container {
+    position: absolute;
+    padding-top: 12em;
+}
+
+.img_intro {
+    display: flex;
+    flex-direction: column;
+}
+
+.img_text {
+    color: #ebe9ec;
+    font-size: 0.8em;
+    padding-left: 12%;
+    padding-right: 2%;
+    margin-top: -0.5%;
+    margin-bottom: 0%;
+    font-weight: 300;
+    font-style: italic;
+    font-family: overpass;
+}
+
+.art_intro_container {}
+
+.art_intro {
+    font-family: Overpass;
+    font-size: 1.4em;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    line-height: 1.4em;
+    color: #ebe9ec;
+    padding-left: 12%;
+    padding-right: 4%;
+    max-width: 100%;
+}
+
+.art_content {
+    margin-left: 0%;
+    padding: 0%;
+    max-width: 100%;
+    padding-left: 6em;
+}
+
+.art_heading {
+    font-family: unica one;
+    font-size: 3em;
+    line-height: 1em;
+    color: #ab1810;
+    margin-top: 2em;
+    margin-bottom: 0%;
+
+}
+
+.art_text {
+    font-family: Overpass;
+    font-size: 1.1em;
+    letter-spacing: 0.06em;
+    line-height: 1.4em;
+    color: #ebe9ec;
+    padding-right: 4%;
+
+}
+
+.art_text_list {
+    font-family: Overpass;
+    font-size: 1.1em;
+    letter-spacing: 0.06em;
+    line-height: 1.4em;
+    color: #ebe9ec;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+
+li {
+    padding-bottom: 2%;
+}
+
+.quote_container {
+    width: auto;
+    padding-right: 5%;
+    text-align: end;
+}
+
+.quote {
+    max-width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+
+/*TEXT-DOTS-LINES*/
+
+.content_art {
+    width: auto;
+    height: 10%;
+}
+
+.art_headline {
+    margin-top: 20%;
+    margin-bottom: 10%;
+    padding-left: 0%;
+    font-family: unica one;
+    font-size: 3em;
+    color: #ab1810;
+    display: inline block;
+}
+
+.art_sub_headline {
+    padding-top: 4%;
+    padding-bottom: 20%;
+    padding-left: 10%;
+    font-family: overpass;
+    font-size: 1.8em;
+    color: #ebe9ec;
+}
+
+
+.art_dot_headline {
+    height: 2.8em;
+    width: 2.8em;
+    background-color: #ab1810;
+    border-radius: 50%;
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.4);
+    margin-top: 110%;
+    margin-bottom: 65%;
+    margin-left: -60%;
+}
+
+.art_dot_subheadline {
+    height: 2.4em;
+    width: 2.4em;
+    background-color: #ebe9ec;
+    border-radius: 50%;
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.4);
+    margin-top: -10%;
+    margin-bottom: 80%;
+    margin-left: -52%;
+}
+
+.art_line_pad {
+    padding-top: 40%;
+}
+
+.art_line {
+    height: 0.4em;
+    background-color: #ebe9ec;
+    width: 4.5em;
+    margin-left: 1em;
+}
+
+
+/*-------------------------*/
+/*---------Devices---------*/
+/*-------------------------*/
+
+@media only screen and (min-width: 500px) {
+
+    .burger_menu {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    .banner_text {
+        font-size: 3.2em;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+
+
+    .img_intro {
+        flex-direction: row;
+    }
+
+    .art_intro_container {
+        width: 30%;
+    }
+
+    .art_content {
+        max-width: 80%;
+    }
+}
+
+@media only screen and (min-width: 850px) {
+    .art_intro_container {}
+}
+
+@media only screen and (min-width: 1024px) {
+    .art_content {}
+
+    .art_intro {}
+}

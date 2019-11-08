@@ -1,0 +1,104 @@
+/*--Part of the reset--*/
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    margin-top: 8%;
+    display: none;
+    max-width: 100%;
+
+}
+
+.nav_element {
+    color: #ebe9ec;
+    text-align: center;
+    font-family: unica one;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-top: 1em;
+}
+
+.menu_line {
+    background-color: #ebe9ec;
+    height: 0.4em;
+    width: 6em;
+}
+
+.burger_menu {
+    width: 15%;
+    height: 15%;
+    margin: auto;
+    margin-right: 10%;
+}
+
+
+
+
+/*-------------------------*/
+/*---------Devices---------*/
+/*-------------------------*/
+
+@media only screen and (min-width: 768px) {
+
+    .burger_menu {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation {
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 850px) {
+/*
+    .navigation {
+        margin-left: 5%;
+    }
+*/
+
+    /*
+    .nav_element {
+        font-size: 1.4em;
+    }
+*/
+}
+
+@media only screen and (min-width: 910px) {
+/*
+    .navigation {
+        margin-left: 10%;
+    }
+*/
+
+    /*
+    .nav_element {
+        font-size: 1.4em;
+    }
+*/
+}
