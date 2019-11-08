@@ -27,16 +27,6 @@ summary {
     float: right;
     max-width: 20%;
     color: aliceblue;
-
-
-    /*
-    position: absolute;
-    color: wheat;
-    top: 77%;
-    right: 20%;
-    max-width: 10%;
-
-*/
 }
 
 
@@ -58,7 +48,6 @@ summary {
     font-family: unica one;
     font-size: 3em;
     color: #ab1810;
-    display: inline block;
 }
 
 .a_sub_headline {
@@ -87,7 +76,6 @@ summary {
     font-family: unica one;
     font-size: 3em;
     color: #ab1810;
-    display: inline block;
 }
 
 .b_sub_headline {
@@ -117,7 +105,6 @@ summary {
     font-family: unica one;
     font-size: 3em;
     color: #ab1810;
-    display: inline block;
 }
 
 .c_sub_headline {
