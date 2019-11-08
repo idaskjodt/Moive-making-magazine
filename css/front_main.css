@@ -17,6 +17,28 @@ summary {
 /*----------------------*/
 /*---------Main---------*/
 /*----------------------*/
+.main_container {
+    display: flex;
+    flex-direction: row;
+    max-width: 70%;
+}
+
+.new_container {
+    float: right;
+    max-width: 20%;
+    color: aliceblue;
+
+
+    /*
+    position: absolute;
+    color: wheat;
+    top: 77%;
+    right: 20%;
+    max-width: 10%;
+
+*/
+}
+
 
 .content {}
 
