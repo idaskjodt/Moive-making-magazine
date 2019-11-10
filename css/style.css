@@ -25,6 +25,7 @@ body {
     max-width: 800px;
     margin: 0 auto;
     background: #1a1a1a;
+    height: auto;
     /*---- COLOR ----*/
 }
 
@@ -231,10 +232,4 @@ footer {
     .banner_text {
         font-size: 3.8em;
     }
-
-    /*
-    .logo {
-        font-size: 3.8em;
-    }
-*/
 }

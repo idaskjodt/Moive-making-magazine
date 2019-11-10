@@ -20,6 +20,17 @@ body {
     background: #1a1a1a;
 }
 
+.art_vertical_line {
+    background-color: #6b0f0b;
+    width: 0.8em;
+    height: 310em;
+    margin-left: 5%;
+    display: inline;
+    margin-top: -1.1%;
+    /* To get the line up to the    banner*/
+}
+
+
 .link_white {
     text-decoration: none;
     color: #ebe9ec;
@@ -51,7 +62,7 @@ body {
     max-width: 100%;
 }
 
-.art_img_container {
+.art_container {
     position: absolute;
     padding-top: 12em;
 }
@@ -61,10 +72,23 @@ body {
     flex-direction: column;
 }
 
+.art_intro {
+    font-family: Overpass;
+    font-size: 1.4em;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    line-height: 1.4em;
+    color: #ebe9ec;
+    padding-left: 10%;
+    padding-right: 4%;
+    max-width: 100%;
+}
+
+
 .img_text {
     color: #ebe9ec;
     font-size: 0.8em;
-    padding-left: 12%;
+    padding-left: 10%;
     padding-right: 2%;
     margin-top: -0.5%;
     margin-bottom: 0%;
@@ -75,23 +99,11 @@ body {
 
 .art_intro_container {}
 
-.art_intro {
-    font-family: Overpass;
-    font-size: 1.4em;
-    font-weight: 700;
-    letter-spacing: 0.06em;
-    line-height: 1.4em;
-    color: #ebe9ec;
-    padding-left: 12%;
-    padding-right: 4%;
-    max-width: 100%;
-}
 
 .art_content {
-    margin-left: 0%;
-    padding: 0%;
-    max-width: 100%;
-    padding-left: 6em;
+    max-width: 80%;
+    padding-left: 12%;
+    margin-bottom: 8%;
 }
 
 .art_heading {
@@ -151,7 +163,7 @@ li {
 }
 
 .art_headline {
-    margin-top: 20%;
+    margin-top: 18%;
     margin-bottom: 10%;
     padding-left: 0%;
     font-family: unica one;
@@ -161,11 +173,12 @@ li {
 
 .art_sub_headline {
     padding-top: 4%;
-    padding-bottom: 20%;
-    padding-left: 10%;
+    padding-bottom: 4%;
+    padding-left: 14%;
     font-family: overpass;
     font-size: 1.8em;
     color: #ebe9ec;
+    width: 160%;
 }
 
 
@@ -203,39 +216,137 @@ li {
 }
 
 
+
+
+/*-----------*/
+/*--Related--*/
+/*-----------*/
+.related_container {
+    padding-top: 4em;
+    max-width: 85%;
+}
+
+.rel_line {
+    width: 80%;
+    height: 0.5em;
+    background-color: #6b0f0b;
+    float: right;
+
+}
+
+.rel_headline {
+    font-family: unica one;
+    font-size: 3em;
+    color: #ab1810;
+    text-align: right;
+    padding-right: 6%;
+    margin-top: 6%;
+    margin-bottom: 2%;
+}
+
+.rel_article {
+    font-family: overpass;
+    font-size: 1em;
+    color: #ebe9ec;
+    display: flex;
+    flex-direction: column;
+    padding-right: 6%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    align-items: flex-end;
+}
+
+.rel_sub {
+    font-family: overpass;
+    font-size: 2em;
+    color: #ebe9ec;
+    margin-bottom: 2%;
+}
+
+.rel_img {
+    max-width: 50%;
+}
+
+.rel_text {
+    font-family: overpass;
+    font-size: 1em;
+    color: #ebe9ec;
+    text-align: end;
+    max-width: 50%;
+    margin-top: 2%;
+}
+
+.rel_dot {
+    height: 2.2em;
+    width: 2.2em;
+    background-color: #ebe9ec;
+    border-radius: 50%;
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.4);
+    margin-top: -128.5%;
+    margin-left: 95%;
+}
+
+.rel_dot_two {
+    height: 2.2em;
+    width: 2.2em;
+    background-color: #ebe9ec;
+    border-radius: 50%;
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.4);
+    margin-top: 64%;
+    margin-left: 95%;
+    z-index: 2;
+}
+
+
+
+
+/*--FOOTER--*/
+
+/*---------Footer---------*/
+
+.art_container_footer {
+    background-color: #ebe9ec;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
 /*-------------------------*/
 /*---------Devices---------*/
 /*-------------------------*/
 
 @media only screen and (min-width: 500px) {
 
-    .burger_menu {
-        display: none;
+    .art_intro {
+        padding-left: 10%;
     }
 
-    .navigation {
-        display: flex;
-    }
-
-    .banner_text {
-        font-size: 3.2em;
+    .art_content {
+        padding-left: 10%;
     }
 }
 
 @media only screen and (min-width: 768px) {
-
-
-
     .img_intro {
         flex-direction: row;
     }
 
+    .art_img {
+        max-width: 100%;
+    }
+
+    .img_text {
+        padding-left: 15%;
+    }
+
     .art_intro_container {
-        width: 30%;
+        width: 40%;
     }
 
     .art_content {
         max-width: 80%;
+        padding-left: 8%;
     }
 }
 

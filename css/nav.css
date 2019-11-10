@@ -24,8 +24,8 @@ summary {
     display: flex;
     flex-direction: row;
     margin-top: 8%;
-    display: none;
     max-width: 100%;
+    display: none;
 
 }
 
