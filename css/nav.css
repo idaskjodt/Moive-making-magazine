@@ -23,21 +23,18 @@ summary {
 .navigation {
     display: flex;
     flex-direction: row;
-    margin-top: 8%;
+    margin: auto;
     max-width: 100%;
     display: none;
-
 }
 
 .nav_element {
     color: #ebe9ec;
     text-align: center;
     font-family: unica one;
-    font-size: 1.2em;
     line-height: 1.2em;
-    margin-right: 3%;
-    margin-left: 3%;
     margin-top: 1em;
+    margin-right: 5%;
 }
 
 .menu_line {
@@ -69,36 +66,30 @@ summary {
     .navigation {
         display: flex;
     }
+}
 
-    .navigation {
-        margin: auto;
+
+
+@media only screen and (min-width: 900px) {
+    .nav_element {
+        font-size: 1.1em;
+        margin-left: 3%;
+        margin-right: 3%;
     }
 }
 
-@media only screen and (min-width: 850px) {
-/*
-    .navigation {
-        margin-left: 5%;
-    }
-*/
-
-    /*
+@media only screen and (min-width: 1000px) {
     .nav_element {
-        font-size: 1.4em;
+        font-size: 1.2em;
+        margin-left: 3%;
+        margin-right: 3%;
     }
-*/
 }
 
-@media only screen and (min-width: 910px) {
-/*
-    .navigation {
-        margin-left: 10%;
-    }
-*/
-
-    /*
+@media only screen and (min-width: 1200px) {
     .nav_element {
-        font-size: 1.4em;
+        font-size: 1.3em;
+        margin-left: 4%;
+        margin-right: 4%;
     }
-*/
 }
