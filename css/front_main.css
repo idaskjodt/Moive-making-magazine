@@ -114,6 +114,9 @@ summary {
     font-size: 3em;
     color: #ab1810;
 }
+.a_headline:hover {
+    opacity: 0.8;
+}
 
 .a_sub_headline {
     padding-top: 2%;
@@ -122,6 +125,9 @@ summary {
     font-family: overpass;
     font-size: 1.8em;
     color: #ebe9ec;
+}
+.a_sub_headline:hover {
+    color: #ab1810;
 }
 
 .a_title {
@@ -132,6 +138,11 @@ summary {
     font-size: 1.4em;
     color: #ebe9ec;
 }
+.a_title:hover {
+    color: #ab1810;
+}
+
+
 
 /*---B----*/
 .b_headline {
@@ -142,6 +153,9 @@ summary {
     font-size: 3em;
     color: #ab1810;
 }
+.b_headline:hover {
+    opacity: 0.8;
+}
 
 .b_sub_headline {
     padding-top: 3%;
@@ -150,6 +164,9 @@ summary {
     font-family: overpass;
     font-size: 1.8em;
     color: #ebe9ec;
+}
+.b_sub_headline:hover {
+    color: #ab1810;
 }
 
 .b_title {
@@ -160,6 +177,10 @@ summary {
     font-size: 1.4em;
     color: #ebe9ec;
 }
+.b_title:hover {
+    color: #ab1810;
+}
+
 
 
 /*---C----*/
@@ -171,6 +192,9 @@ summary {
     font-size: 3em;
     color: #ab1810;
 }
+.c_headline:hover {
+    opacity: 0.8;
+}
 
 .c_sub_headline {
     padding-top: 2%;
@@ -179,6 +203,9 @@ summary {
     font-family: overpass;
     font-size: 1.8em;
     color: #ebe9ec;
+}
+.c_sub_headline:hover {
+    color: #ab1810;
 }
 
 .c_title {
@@ -189,8 +216,13 @@ summary {
     font-size: 1.4em;
     color: #ebe9ec;
 }
+.c_title:hover {
+    color: #ab1810;
+}
 
-/*---headline---*/
+/*---//headline---*/
+
+
 
 
 

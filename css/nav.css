@@ -37,11 +37,20 @@ summary {
     margin-right: 5%;
 }
 
+.menu_line:hover {
+    width: 1.5em;
+    margin: auto;
+    color: green;
+    transition: .3s;
+}
+
 .menu_line {
     background-color: #ebe9ec;
     height: 0.4em;
     width: 6em;
+    transition: .3s ease-in-out;
 }
+
 
 .burger_menu {
     width: 15%;
