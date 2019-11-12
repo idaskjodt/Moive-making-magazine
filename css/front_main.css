@@ -21,6 +21,7 @@ summary {
     display: flex;
     flex-direction: row;
     max-width: 100%;
+    margin-top: 0px;
 }
 
 .new_container {
@@ -32,7 +33,7 @@ summary {
 .follow {
     display: flex;
     flex-direction: row;
-    padding-top: 10%;
+    padding-top: 40%;
 }
 
 .insta_text {
@@ -114,6 +115,7 @@ summary {
     font-size: 3em;
     color: #ab1810;
 }
+
 .a_headline:hover {
     opacity: 0.8;
 }
@@ -126,6 +128,7 @@ summary {
     font-size: 1.8em;
     color: #ebe9ec;
 }
+
 .a_sub_headline:hover {
     color: #ab1810;
 }
@@ -138,6 +141,7 @@ summary {
     font-size: 1.4em;
     color: #ebe9ec;
 }
+
 .a_title:hover {
     color: #ab1810;
 }
@@ -153,6 +157,7 @@ summary {
     font-size: 3em;
     color: #ab1810;
 }
+
 .b_headline:hover {
     opacity: 0.8;
 }
@@ -165,6 +170,7 @@ summary {
     font-size: 1.8em;
     color: #ebe9ec;
 }
+
 .b_sub_headline:hover {
     color: #ab1810;
 }
@@ -177,6 +183,7 @@ summary {
     font-size: 1.4em;
     color: #ebe9ec;
 }
+
 .b_title:hover {
     color: #ab1810;
 }
@@ -192,6 +199,7 @@ summary {
     font-size: 3em;
     color: #ab1810;
 }
+
 .c_headline:hover {
     opacity: 0.8;
 }
@@ -204,6 +212,7 @@ summary {
     font-size: 1.8em;
     color: #ebe9ec;
 }
+
 .c_sub_headline:hover {
     color: #ab1810;
 }
@@ -216,6 +225,7 @@ summary {
     font-size: 1.4em;
     color: #ebe9ec;
 }
+
 .c_title:hover {
     color: #ab1810;
 }
@@ -338,7 +348,18 @@ summary {
         font-size: 3em;
         color: #ab1810;
     }
+    .main_container {
+        margin-top: 0px;
+    }
 }
+
+
+@media only screen and (min-width: 600px) {
+    .main_container {
+        margin-top: 18px;
+    }
+}
+
 
 @media only screen and (min-width: 768px) {
 
@@ -351,5 +372,24 @@ summary {
         max-width: 70%;
         padding-left: 1.5%;
     }
-
 }
+
+@media only screen and (min-width: 1000px) {
+    .main_container {
+        margin-top: 32px;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .main_container {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .main_container {
+        margin-top: 85px;
+    }
+}
+
+

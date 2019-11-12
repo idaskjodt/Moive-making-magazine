@@ -27,57 +27,70 @@
         <!--======HEADER======-->
         <!--==================-->
         <header class="header">
-            <div class="top_space">
+
+            <nav class="navigation_container">
+
+                <input class="menu-btn" type="checkbox" id="menu-btn">
+                <label class="menu-icon" for="menu-btn">
+
+                    <div class="burger_top"></div>
+                    <div class="burger_mid"></div>
+                    <div class="burger_bot"></div>
+
+                </label>
+
                 <div class="horizontal_line"></div>
-            </div>
 
-            <div class="menu">
-                <div class="logo">
-                    <h1><a href="index.html" class="link_white">MOVIE<br>MAKING<br>MAGAZINE</a></h1>
-                </div>
-                <img src="images/burgermenu.png" alt="burger menu" class="burger_menu">
+                <h1 class="logo"><a href="index.html" class="link_white">Movie<br>Making<br>Magazine</a></h1>
 
 
-                <div class="navigation">
-                    <div class="nav_element">
-                        <div class="menu_line"></div>
 
-                        <div class="nav_element"><a href="#pre-production" class="link_white">Pre-production</a>
-                        </div>
+                <!-----Desktop menu----->
+
+                <div class="menu navbar">
+                    <div class="dropdown">
+                       <div class="nav_line"></div>
+                        <a href="#pre-production" class="nav_link">Pre-production</a>
                     </div>
 
-                    <div class="nav_element">
-                        <div class="menu_line"></div>
-
-                        <div class="nav_element"><a href="#production" class="link_white">Production</a>
-                        </div>
+                    <div class="dropdown">
+                       <div class="nav_line"></div>
+                        <a href="#production" class="nav_link">Production</a>
                     </div>
 
-                    <div class="nav_element">
-                        <div class="menu_line"></div>
-
-                        <div class="nav_element"><a href="#post-production" class="link_white">Post-production</a>
-                        </div>
+                    <div class="dropdown">
+                       <div class="nav_line"></div>
+                        <a href="#post-production" class="nav_link">Post-production</a>
                     </div>
 
-                    <div class="nav_element">
-                        <div class="menu_line"></div>
-
-                        <div class="nav_element"><a href="/subpage/articles/christopher_nolan.html" class="link_white">Trends</a>
-                        </div>
+                    <div class="dropdown">
+                       <div class="nav_line"></div>
+                        <a href="subpage/articles/christopher_nolan.html" class="nav_link">Trends</a>
                     </div>
 
                 </div>
 
 
-            </div>
+                <!-----Mobile menu----->
+
+                <ul class="mob_menu">
+
+                    <li><a href="#pre-production" class="nav_link">Pre-production</a></li>
+
+                    <li><a href="#production" class="nav_link">Production</a></li>
+
+                    <li><a href="#post-production" class="nav_link">Post-production</a></li>
+
+                    <li><a href="subpage/articles/christopher_nolan.html" class="nav_link">Trends</a></li>
+
+                </ul>
+
+            </nav>
 
 
-            <div class="banner">
-                <img src="images/banner.png" alt="Banner" class="banner_pic">
-                <div class="banner_text">Film making process</div>
-            </div>
         </header><!-- .header-->
+
+
 
 
 
@@ -85,6 +98,10 @@
         <!--=======MAIN=======-->
         <!--==================-->
         <main>
+            <div class="banner">
+                <img src="images/banner.png" alt="Banner" class="banner_pic">
+                <div class="banner_text">Film making process</div>
+            </div>
 
             <div class="new_container">
 
@@ -481,8 +498,8 @@
                     <div class="sub_headline_footer">Follow on Instagram</div>
 
                     <div class="sub_footer">
-                    <img src="images/instagram_icon_red.png" class="insta_footer">
-                    <a href="https://www.instagram.com/by.skjodt/" class="link_red">eaaiso.dk</a>
+                        <img src="images/instagram_icon_red.png" class="insta_footer">
+                        <a href="https://www.instagram.com/by.skjodt/" class="link_red">eaaiso.dk</a>
                     </div>
                 </div>
 
@@ -492,6 +509,4 @@
 
 
 
-</body>
-
-</html>
+</body></html>

@@ -33,6 +33,7 @@ body {
     text-decoration: none;
     color: #ebe9ec;
 }
+
 .link_white:hover {
     color: #ab1810;
 }
@@ -41,9 +42,11 @@ body {
     text-decoration: none;
     color: #ab1810;
 }
+
 .link_red:hover {
     color: #ebe9ec;
 }
+
 /*--------------------------*/
 /*----------Header----------*/
 /*--------------------------*/
@@ -62,26 +65,17 @@ body {
     width: 90%;
     margin: auto;
     display: block;
+    margin-top: 16px;
 }
 
-.logo {
-    padding-left: 8%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    font-family: Unica One;
-    font-size: 3.5em;
-    line-height: 1em;
-    color: #ebe9ec;
-    letter-spacing: 0.03em;
-}
 .logo:hover {
     opacity: 0.8;
 }
 
 .banner {
-    position: relative;
     text-align: center;
     color: white;
+    margin-top: 190px;
 }
 
 .banner_pic {
@@ -94,8 +88,8 @@ body {
 }
 
 .banner_text {
-    position: absolute;
-    top: 50%;
+    position: relative;
+    margin-top: -12%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
@@ -119,8 +113,6 @@ main {}
     height: 220em;
     margin-left: 5%;
     display: inline;
-    margin-top: -1.1%;
-    /* To get the line up to the    banner*/
 }
 
 
@@ -256,11 +248,12 @@ footer {
 
 
 @media only screen and (min-width: 768px) {
-.wrapper {
-    max-width: 100%;
-    margin: 0 auto;
-    padding-left: 15%;
-    padding-right: 15%;
-    /*---- COLOR ----*/
-}
+    .wrapper {
+        max-width: 100%;
+        margin: 0 auto;
+        padding-left: 15%;
+        padding-right: 15%;
+        /*---- COLOR ----*/
+    }
+
 }
