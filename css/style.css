@@ -42,7 +42,15 @@ body {
     text-decoration: none;
     color: #ab1810;
 }
+.link_red_footer {
+    text-decoration: none;
+    color: #ab1810;
+}
 
+
+.link_red_footer:hover {
+    color: #1a1a1a;
+}
 .link_red:hover {
     color: #ebe9ec;
 }
